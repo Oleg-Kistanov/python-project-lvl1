@@ -13,10 +13,8 @@ jobs:
     steps:
       - name: Print a few commands
         run : |
-          echo "Hello World!"
           python3 --version
           python3 -m pip --version
-          flake8 --version
           
           
   second_job:
