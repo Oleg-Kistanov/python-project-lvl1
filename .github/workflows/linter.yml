@@ -1,0 +1,25 @@
+name: Python-linter
+
+# Specify the situation more specifically
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  First job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello Message
+        run : echo "Hello World!"
+          
+          
+          
+          
+  Second job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Good morning
+        run : echo "Good morning"
+    
+    
