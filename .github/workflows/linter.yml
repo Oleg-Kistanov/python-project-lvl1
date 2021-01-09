@@ -17,6 +17,15 @@ jobs:
           python3 -m pip --version
           python3 -m pip install --user --upgrade pip
           
+      - name: Print current directory
+        run : ls -la
+      
+      - name: Git clone my repo
+        uses: actions/checkout@v1
+      
+      - name: Print current directory
+        run : ls -la
+       
           
   second_job:
     runs-on: ubuntu-latest
