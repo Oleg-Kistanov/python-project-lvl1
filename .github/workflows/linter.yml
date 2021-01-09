@@ -11,10 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Print Hello Message
-        run : echo "Hello World!"
-          
-          
+      - name: Print a few commands
+        run : |
+          echo "Hello World!"
+          python3 --version
+          python3 -m pip --version
+          flake8 --version
           
           
   second_job:
@@ -22,7 +24,9 @@ jobs:
     needs: [first_job]
     
     steps:
-      - name: Print Good morning
-        run : echo "Good morning"
+      - name: Execute a few commands
+        run : |
+          sudo apt install pip
+          pip --version
     
     
