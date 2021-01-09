@@ -9,6 +9,7 @@ on:
 jobs:
   first_job:
     runs-on: ubuntu-latest
+    
     steps:
       - name: Print Hello Message
         run : echo "Hello World!"
@@ -18,6 +19,8 @@ jobs:
           
   second_job:
     runs-on: ubuntu-latest
+    needs: [first_job]
+    
     steps:
       - name: Print Good morning
         run : echo "Good morning"
