@@ -1,0 +1,21 @@
+name: Python package
+
+on: push
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-vers: [2.7, 3.5, 3.6, 3.7, 3.8]
+      
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python ${{ matrix.python-vers }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-vers }}
+    
+   
+
+    
