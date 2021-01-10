@@ -5,5 +5,5 @@
 <a href="https://codeclimate.com/github/Oleg-Kistanov/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/db05035733ea2eaddde2/maintainability" /></a>
 
 ### Github workflow status badge
-https://github.com/Oleg-Kistanov/python-project-lvl1/workflows/python-package/badge.svg
+https://github.com/Oleg-Kistanov/python-project-lvl1/workflows/Python%20package/badge.svg
 
