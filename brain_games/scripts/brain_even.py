@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+
+import random
+from brain_games import cli
+
+
+def main():
+    print("Welcome to the Brain Games!")
+    name = cli.welcome_user()
+    print('Answer "yes" if the number is even, otherwise answer "no".')
+
+    questions = 3
+
+    while questions >= 0:
+        number = random.randint(1, 15)
+        answers = ["yes", "no"]
+        if questions == 0:
+            print(f"Congratulations, {name}!")
+            break
+        print("Question: " + str(number))
+        user_input = input("Your answer: ")
+        if user_input.lower() not in answers:
+            print(f"{user_input} is wrong answer"
+                  f" ;(.\nLet's try again, {name}!")
+            break
+        if number % 2 == 0 and user_input.lower() == answers[0] or \
+                number % 2 != 0 and user_input.lower() == answers[1]:
+            print("Correct!")
+            questions -= 1
+            continue
+        if number % 2 == 0 and user_input.lower() == answers[1]:
+            print(f"'{user_input}' is wrong answer"
+                  f" ;(. Correct answer was 'yes'. \nLet's try again, {name}!")
+            break
+        else:
+            print(f"'{user_input}' is wrong answer"
+                  f" ;(. Correct answer was 'no'. \nLet's try again, {name}!")
+            break
+
+
+if __name__ == "__main__":
+    main()
