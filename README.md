@@ -7,3 +7,5 @@
 ### Github workflow status badge
 ![Python package](https://github.com/Oleg-Kistanov/python-project-lvl1/workflows/Python%20package/badge.svg)
 
+### "brain-even" game
+[![asciicast](https://asciinema.org/a/SNrS5KIyDa4thPIDLqvFyThtR.svg)](https://asciinema.org/a/SNrS5KIyDa4thPIDLqvFyThtR)
