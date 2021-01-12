@@ -8,4 +8,4 @@
 ![Python package](https://github.com/Oleg-Kistanov/python-project-lvl1/workflows/Python%20package/badge.svg)
 
 ### Parity check
-<script id="asciicast-SNrS5KIyDa4thPIDLqvFyThtR" src="https://asciinema.org/a/SNrS5KIyDa4thPIDLqvFyThtR.js" async></script>
+[![asciicast](https://asciinema.org/a/SNrS5KIyDa4thPIDLqvFyThtR.svg)](https://asciinema.org/a/SNrS5KIyDa4thPIDLqvFyThtR)
