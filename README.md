@@ -7,5 +7,5 @@
 ### Github workflow status badge
 ![Python package](https://github.com/Oleg-Kistanov/python-project-lvl1/workflows/Python%20package/badge.svg)
 
-### Parity check
-[![asciicast](https://asciinema.org/a/SNrS5KIyDa4thPIDLqvFyThtR.svg)](https://asciinema.org/a/SNrS5KIyDa4thPIDLqvFyThtR)
+### Package content demonstration
+[![asciicast](https://asciinema.org/a/ETTbdkIXcZCFU663sQl86KFHC.svg)](https://asciinema.org/a/ETTbdkIXcZCFU663sQl86KFHC)
