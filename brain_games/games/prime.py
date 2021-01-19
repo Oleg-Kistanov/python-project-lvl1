@@ -10,8 +10,9 @@ def check_prime():
     """
     expression = random.randint(1, 100)
     composite_dividers = list(range(2, expression))
+    if expression == 1:
+        return ("no", expression)
     for i in composite_dividers:
         if expression % i == 0:
-            answer = "no"
-            return (answer, expression)
+            return ("no", expression)
     return ("yes", expression)
