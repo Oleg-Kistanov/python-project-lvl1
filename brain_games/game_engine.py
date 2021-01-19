@@ -10,7 +10,9 @@ def check_answer(game, name):
     :param name: user name
     :return: None
     """
-    for _ in range(3):
+    questions = 3
+
+    for _ in range(questions):
         answer, expression = game()
         print(f"Question: {expression}")
         user_input = input("Your answer: ")

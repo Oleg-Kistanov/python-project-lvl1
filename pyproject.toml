@@ -1,11 +1,18 @@
 [tool.poetry]
 name = "hexlet_code"
-version = "0.6.0"
-description = ""
+version = "0.6.1"
+description = "The package contains 5 games based on math and logic."
 authors = ["Oleg Kistanov <olegkistanov95@gmail.com>"]
 packages = [
   { include = "brain_games" },
 ]
+license = "MIT License"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+repository = "https://github.com/Oleg-Kistanov/python-project-lvl1"
 
 [tool.poetry.dependencies]
 python = "^3.6"
